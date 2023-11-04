@@ -1,0 +1,115 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Font Families */
+body {
+    font-family: 'Cairo', 'Poppins', sans-serif;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(81, 150, 182);
+}
+
+/* Container Styles */
+.container {
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    padding: 20px 30px;
+    border: 2px solid #000;
+    text-align: center;
+    min-width: 400px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container i {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Label Styles */
+label {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+    display: block;
+}
+
+/* Input and Textarea Styles */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 500;
+}
+
+input::placeholder {
+    color: #3f3e3e94;
+}
+
+/* Buttons Styles */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 16px;
+    padding: 8px;
+    font-weight: 500;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* Textarea Styles */
+textarea {
+    resize: none;
+    height: 40px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        min-width: 300px; 
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    input, textarea {
+        font-size: 12px;
+    }
+}
+
