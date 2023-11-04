@@ -5,11 +5,17 @@ This is a simple URL shortener web application that allows you to shorten long U
 ## Table of Contents
 - [Features](#features)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
+
 
 ## Features
 - Shorten long URLs to make them more manageable.
 - Responsive design for various screen sizes.
 - Easy-to-use interface.
+
+## Screenshots
+![image](https://github.com/islamoomostafa/URL-Shortener/assets/77172741/0cd2dcc1-8ac5-41e9-85d2-91c7d9599503)
+
 
 ## Usage
 1. Open the web application in your web browser.
