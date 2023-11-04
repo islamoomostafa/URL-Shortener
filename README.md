@@ -5,15 +5,10 @@ This is a simple URL shortener web application that allows you to shorten long U
 ## Table of Contents
 - [Features](#features)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Shorten long URLs to make them more manageable.
 - Responsive design for various screen sizes.
-- Dark mode for a comfortable viewing experience.
 - Easy-to-use interface.
 
 ## Usage
@@ -23,8 +18,4 @@ This is a simple URL shortener web application that allows you to shorten long U
 4. The shortened URL will be displayed in the "Shortened URL" textarea.
 5. You can also click the "Reload" button to start over.
 
-## Screenshots
-![URL Shortener](screenshot.png)
 
-## Installation
-1. Clone the repository to your local machine.
